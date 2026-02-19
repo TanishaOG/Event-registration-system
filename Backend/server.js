@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const app = express();
 
-pp.use(cors({
+app.use(cors({
   origin: "https://init2026.netlify.app",
   methods: ["GET", "POST", "OPTIONS"],
   allowedHeaders: ["Content-Type"],
